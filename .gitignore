@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Data (don’t commit raw/processed outputs)
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
